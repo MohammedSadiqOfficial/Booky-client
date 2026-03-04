@@ -151,7 +151,7 @@ const Books = () => {
 				</Badge>
 			</div>
 
-			<div className="grid grid-cols-3 gap-4">
+			<div className="grid sm:grid-cols-3 lg:grid-cols-4 gap-4">
 				{books.map((book) => {
 					const progress = Math.round(
 						(parseInt(book.readPages) / parseInt(book.totalPages)) *

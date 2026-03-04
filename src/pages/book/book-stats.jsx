@@ -6,7 +6,7 @@ import React from "react";
 const BookStats = ({ readPages, totalPages, progress }) => {
   return (
     <Card className="shadow-sm h-full w-full max-w-md">
-      <CardHeader className="flex flex-col items-center justify-between space-y-2 pb-2">
+      <CardHeader className="flex flex-col items-center gap-4 justify-between space-y-2 pb-2">
         <div className="p-3 rounded-full bg-muted">
           <ChartColumnBig className="w-8 h-8" />
         </div>
